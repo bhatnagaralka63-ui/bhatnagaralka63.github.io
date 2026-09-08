@@ -415,3 +415,24 @@ footer {
     }
 
 }
+
+/* =========================
+   PROJECT LINKS
+========================= */
+
+.project-link {
+    display: inline-block;
+    margin-top: 25px;
+
+    color: #00e5ff;
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.project-link:hover {
+    transform: translateX(5px);
+}
