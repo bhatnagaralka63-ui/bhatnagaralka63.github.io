@@ -6,7 +6,7 @@ I am a BCA student specializing in Data Science & AI, interested in building dat
 
 ## 🌐 Live Portfolio
 
-https://bhatnagaralka63.github.io/
+https://bhatnagaralka63-ui.github.io/bhatnagaralka63.github.io/
 
 ## 🚀 Projects
 
