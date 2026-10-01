@@ -253,8 +253,11 @@ nav.scrolled {
     margin-bottom: 12px;
 }
 
-.hero h2 span {
-    color: #a98cff;
+.hero h1 span {
+    display: block;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #ffffff;
+    opacity: 0.8;
 }
 
 /* DESCRIPTION */
