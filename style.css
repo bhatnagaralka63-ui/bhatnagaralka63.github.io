@@ -231,12 +231,8 @@ nav.scrolled {
 
 .hero h1 span {
     display: block;
-
-    color: transparent;
-
-    -webkit-text-stroke: 1px rgba(141, 141, 149, 0.45);
-
-    opacity: 0.75;
+    color: #f2f2f2;
+    opacity: 1;
 }
 
 /* HEADLINE */
