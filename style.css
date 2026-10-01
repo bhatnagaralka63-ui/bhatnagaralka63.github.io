@@ -799,131 +799,33 @@ footer {
 }
 
 
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 1000px) {
-
-    .projects {
-        grid-template-columns: 1fr;
-    }
-
-    .project-card {
-        min-height: auto;
-    }
-
-    .hero h1 {
-        font-size: clamp(65px, 13vw, 110px);
-    }
-}
-
-
 @media (max-width: 700px) {
 
-    nav {
-        height: 65px;
-
-        padding: 0 6%;
-    }
-
-    .nav-links {
-        display: none;
-    }
-
-    .section {
-        padding: 90px 7%;
-    }
-
     .hero {
-        padding: 120px 7% 80px;
-
-        min-height: 100svh;
+        padding: 120px 7% 70px;
     }
 
     .hero h1 {
-        font-size: 65px;
-
+        font-size: 64px;
         letter-spacing: -5px;
+        line-height: 0.88;
     }
 
     .hero h2 {
-        font-size: 22px;
+        font-size: 21px;
     }
 
     .hero p {
         font-size: 15px;
+        line-height: 1.7;
     }
 
     .buttons {
-        flex-direction: column;
-
+        flex-direction: row;
         align-items: flex-start;
     }
 
     .hero-tech {
-        margin-top: 32px;
-    }
-
-    .section h2 {
-        font-size: 44px;
-
-        letter-spacing: -2px;
-    }
-
-    .about-text {
-        font-size: 16px;
-    }
-
-    .project-card {
-        padding: 28px;
-    }
-
-    .project-card h3 {
-        font-size: 25px;
-    }
-
-    .socials {
-        flex-direction: column;
-
-        align-items: center;
-    }
-
-    .socials a {
-        width: 180px;
-    }
-}
-
-
-@media (max-width: 450px) {
-
-    .logo {
-        font-size: 22px;
-    }
-
-    .hero h1 {
-        font-size: 55px;
-
-        letter-spacing: -4px;
-    }
-
-    .hero-status {
-        font-size: 9px;
-
-        letter-spacing: 2px;
-    }
-
-    .small-text {
-        font-size: 10px;
-
-        letter-spacing: 3px;
-    }
-
-    .section {
-        padding: 75px 6%;
-    }
-
-    .section h2 {
-        font-size: 38px;
+        margin-top: 28px;
     }
 }
