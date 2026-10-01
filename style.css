@@ -145,7 +145,7 @@ nav.scrolled {
 
 
 /* =========================================================
-   HERO — CLEAN EDITORIAL
+   CLEAN HERO
 ========================================================= */
 
 .hero {
@@ -155,14 +155,13 @@ nav.scrolled {
     display: flex;
     align-items: center;
 
-    padding: 140px 9% 90px;
+    padding: 120px 9% 80px;
 
     overflow: hidden;
 
     background: #0b0b0d;
 }
 
-/* Remove the oversized decorative circles */
 .hero::before,
 .hero::after {
     display: none;
@@ -173,7 +172,7 @@ nav.scrolled {
     z-index: 2;
 
     width: 100%;
-    max-width: 1180px;
+    max-width: 1100px;
 }
 
 /* STATUS */
@@ -181,16 +180,16 @@ nav.scrolled {
 .hero-status {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 9px;
 
     color: #9999a1;
 
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
 
     letter-spacing: 3px;
 
-    margin-bottom: 38px;
+    margin-bottom: 32px;
 }
 
 .status-dot {
@@ -198,7 +197,6 @@ nav.scrolled {
     height: 6px;
 
     background: #a98cff;
-
     border-radius: 50%;
 }
 
@@ -207,46 +205,52 @@ nav.scrolled {
 .small-text {
     color: #77777f;
 
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
 
     letter-spacing: 4px;
 
-    margin-bottom: 14px;
+    margin-bottom: 10px;
 }
 
 /* NAME */
 
 .hero h1 {
-    font-size: clamp(72px, 10vw, 138px);
+    font-size: clamp(64px, 8vw, 118px);
 
-    line-height: 0.86;
+    line-height: 0.88;
 
-    letter-spacing: -7px;
+    letter-spacing: -6px;
 
     font-weight: 900;
 
-    margin-bottom: 42px;
+    margin-bottom: 30px;
 }
+
+/* BOTH NAMES IDENTICAL */
 
 .hero h1 span {
     display: block;
+
     color: #f2f2f2;
+
     opacity: 1;
+
+    -webkit-text-stroke: 0;
 }
 
 /* HEADLINE */
 
 .hero h2 {
-    font-size: clamp(22px, 2.5vw, 30px);
+    font-size: clamp(21px, 2.4vw, 29px);
 
     color: #d0d0d5;
 
     font-weight: 500;
 
-    margin-bottom: 16px;
-
     letter-spacing: -0.5px;
+
+    margin-bottom: 12px;
 }
 
 .hero h2 span {
@@ -256,15 +260,52 @@ nav.scrolled {
 /* DESCRIPTION */
 
 .hero p {
-    max-width: 650px;
+    max-width: 620px;
 
     color: #85858d;
 
-    font-size: 16px;
+    font-size: 15px;
 
-    line-height: 1.8;
+    line-height: 1.75;
 }
 
+/* BUTTONS */
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 20px;
+
+    font-size: 12px;
+}
+
+/* TECH */
+
+.hero-tech {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 7px;
+
+    margin-top: 26px;
+}
+
+.hero-tech span {
+    padding: 6px 10px;
+
+    color: #77777f;
+
+    border: 1px solid #25252a;
+
+    font-size: 10px;
+}
 /* =========================================================
    BUTTONS
 ========================================================= */
