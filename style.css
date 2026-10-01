@@ -866,3 +866,20 @@ footer {
         margin-top: 28px;
     }
 }
+
+/* =========================================================
+   FINAL NAME FIX
+========================================================= */
+
+.hero h1 span {
+    display: block !important;
+
+    color: #f2f2f2 !important;
+
+    opacity: 1 !important;
+
+    -webkit-text-stroke: 0 !important;
+    text-shadow: none !important;
+
+    visibility: visible !important;
+}
